@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=LineChartPanel
+comment0.text=\r\n\ Write\ a\ description\ of\ JavaFX\ class\ MainWindow\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=location\ resources
+comment1.target=void\ initialize(java.net.URL,\ java.util.ResourceBundle)
+comment10.params=event
+comment10.target=void\ categoryChoice(javafx.event.ActionEvent)
+comment2.params=startDate\ endDate
+comment2.target=long\ daysSince(java.time.LocalDate,\ java.time.LocalDate)
+comment3.params=event
+comment3.target=void\ startDisplay(javafx.event.ActionEvent)
+comment4.params=series\ borough
+comment4.target=void\ loadValues(javafx.scene.chart.XYChart.Series,\ java.lang.String)
+comment5.params=date
+comment5.target=java.lang.String\ makeParsable(java.lang.String)
+comment5.text=\r\n\ Parsing\ the\ date\ only\ works\ in\ the\ format\ YYYY-MM-DD,\ so\ this\ method\r\n\ converts\ the\ date\ if\ its\ YYYY-M-DD\ or\ YYYY-MM-D.\r\n\ \r\n\ @param\ date\ The\ date\ string\ to\ modify\r\n
+comment6.params=date
+comment6.target=void\ setStartDate(java.lang.String)
+comment6.text=\r\n\ Set\ the\ start\ date.\r\n\ \r\n\ @param\ date\ The\ formatted\ string\ date\r\n
+comment7.params=date
+comment7.target=void\ setEndDate(java.lang.String)
+comment7.text=\r\n\ Set\ the\ end\ date.\r\n\ \r\n\ @param\ date\ The\ formatted\ string\ date\r\n
+comment8.params=event
+comment8.target=void\ choice1Box(javafx.event.ActionEvent)
+comment9.params=event
+comment9.target=void\ choice2Box(javafx.event.ActionEvent)
+numComments=11

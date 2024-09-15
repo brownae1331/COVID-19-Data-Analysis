@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BarPanel">
+   <center>
+      <BarChart fx:id="barchart" title="Bing bang" BorderPane.alignment="CENTER">
+        <xAxis>
+          <CategoryAxis label="Boroughs" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis label="Deaths" side="LEFT" />
+        </yAxis>
+      </BarChart>
+   </center>
+</BorderPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" minHeight="-Infinity" prefHeight="360.0" prefWidth="645.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="StatisticsPanel">
+  <children>
+    <AnchorPane maxHeight="-Infinity" maxWidth="-1.0" prefHeight="305.0" prefWidth="640.0" VBox.vgrow="ALWAYS">
+      <children>
+            <Button layoutX="516.0" layoutY="32.0" mnemonicParsing="false" onAction="#rightClick" prefHeight="294.0" prefWidth="106.0" text="&gt;" />
+            <Label fx:id="statisticTitle" alignment="CENTER" layoutX="188.0" layoutY="80.0" prefHeight="152.0" prefWidth="269.0" style="-fx-font-weight: bold; -fx-font-size: 17; -fx-font-family: arial;" text="Click arrows to show statistics" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="statisticDisplay" alignment="CENTER" layoutX="206.0" layoutY="119.0" prefHeight="137.0" prefWidth="233.0" style="-fx-font-weight: bold; -fx-font-size: 17; -fx-font-family: arial;" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button layoutX="24.0" layoutY="32.0" mnemonicParsing="false" onAction="#leftClick" prefHeight="294.0" prefWidth="106.0" text="&lt;" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=MapPanel
+comment0.text=\r\n\ Map\ of\ London\ Boroughs\ with\ their\ total\ deaths\ over\ the\ specified\ period\ of\ time.\r\n\r\n\ @Danny\ Tierney\ k23081869\r\n\ @27/03/2024\r\n
+comment1.params=
+comment1.target=void\ generateAllData()
+comment1.text=\ \r\n\ Runs\ through\ every\ borough,\ setting\ the\ displayed\ total\ deaths\ and\r\n\ the\ label's\ colour\ representation.\r\n
+comment2.params=label\ select\ boroughName
+comment2.target=void\ assignData(javafx.scene.control.Label,\ javafx.scene.control.RadioButton,\ java.lang.String)
+comment2.text=\ \r\n\ Fetches\ the\ data\ for\ a\ specified\ borough,\ calculating\ the\ total\ deaths\r\n\ over\ a\ period\ of\ time\ and\ then\ displaying\ it\ on\ the\ corresponding\r\n\ label.\r\n\ \r\n\ @param\ boroughLabel\ The\ label\ object\ to\ be\ modified.\r\n\ @param\ boroughName\ The\ full\ name\ of\ the\ borough\ found\ in\ the\ csv.\r\n
+comment3.params=date
+comment3.target=void\ setStartDate(java.lang.String)
+comment3.text=\r\n\ Set\ the\ start\ date.\r\n\ \r\n\ @param\ date\ The\ formatted\ string\ date\r\n
+comment4.params=date
+comment4.target=void\ setEndDate(java.lang.String)
+comment4.text=\r\n\ Set\ the\ end\ date.\r\n\ \r\n\ @param\ date\ The\ formatted\ string\ date\r\n
+comment5.params=event
+comment5.target=void\ openStats(javafx.event.ActionEvent)
+comment5.text=\ \r\n\ Triggers\ when\ 'statsButton'\ in\ the\ bottom\ right\ is\ clicked.\r\n
+comment6.params=event
+comment6.target=void\ locationSelected(javafx.event.ActionEvent)
+comment6.text=\ \r\n\ Triggers\ when\ a\ radio\ button\ is\ selected.\r\n
+numComments=7

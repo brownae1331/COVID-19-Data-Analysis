@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=StatisticsPanel
+comment0.text=\r\n\ Displays\ statistics\ for\ the\ given\ date\ interval\r\n\r\n\ @Ricky\ Gordon\ k23075676\r\n\ @15/03/2024\r\n
+comment1.params=type
+comment1.target=int\ processStatistic(java.lang.String)
+comment1.text=\r\n\ Processes\ all\ the\ statistics\r\n\ The\ type\ parameter\ specifies\ which\ statistic\ is\ being\ processed\r\n\ That\ parameter\ will\ affect\ the\ output\ and\ the\ processing\ accordingly\r\n\ For\ the\ average\ total\ cases,\ type\ should\ be\ "total\ cases"\r\n\ For\ the\ percentage\ change\ in\ visits\ to\ parks,\ type\ should\ be\ "parks"\r\n\ For\ the\ percentage\ change\ in\ visits\ to\ workplaces,\ type\ should\ be\ "workplaces"\r\n\ For\ the\ total\ amount\ of\ total\ deaths,\ type\ should\ be\ "totalTotalDeaths"\r\n
+comment2.params=date
+comment2.target=void\ setStartDate(java.lang.String)
+comment2.text=\r\n\ Set\ the\ start\ date.\r\n\ \r\n\ @param\ date\ The\ formatted\ string\ date\r\n
+comment3.params=date
+comment3.target=void\ setEndDate(java.lang.String)
+comment3.text=\r\n\ Set\ the\ end\ date.\r\n\ \r\n\ @param\ date\ The\ formatted\ string\ date\r\n
+comment4.params=event
+comment4.target=void\ leftClick(javafx.event.ActionEvent)
+comment5.params=event
+comment5.target=void\ rightClick(javafx.event.ActionEvent)
+comment6.params=
+comment6.target=java.lang.String\ getStartDate()
+comment7.params=
+comment7.target=java.lang.String\ getEndDate()
+numComments=8
